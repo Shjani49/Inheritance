@@ -10,12 +10,12 @@ namespace Inheritance
         public Box()
         {
             Capacity = 6;
-            Contents = 2;
+            
         }
         public override void Search()
         {
             base.Search();
-            Console.WriteLine($"The Boxe contains {Contents} items of a maximum {Capacity}.");
+            Console.WriteLine($"The Boxe contains {Contents.Count} items of a maximum {Capacity}.");
         }
     }
 

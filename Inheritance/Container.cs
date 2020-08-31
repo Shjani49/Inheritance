@@ -10,7 +10,7 @@ namespace Inheritance
         // The Container will have a Capacity and Contents property and a Search() method.The search method will write "You open the container."  
 
         public int Capacity { get; set; }
-        public int Contents { get; set; }
+        public List<Fruit> Contents { get; set; }
 
         public virtual void Search()
         {

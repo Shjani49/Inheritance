@@ -9,12 +9,12 @@ namespace Inheritance
         public Cupboard()
         {
             Capacity = 4;
-            Contents = 3;
+           
         }
         public override void Search()
         {
             base.Search();
-            Console.WriteLine($"The Cupboard contains {Contents} items of a maximum {Capacity}.");
+            Console.WriteLine($"The Cupboard contains {Contents.Count} items of a maximum {Capacity}.");
         }
        
     }

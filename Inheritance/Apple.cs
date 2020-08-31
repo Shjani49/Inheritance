@@ -6,9 +6,11 @@ namespace Inheritance
 {
     public class Apple : Fruit
     {
+        public string Type { get; set; }
         public Apple()
         {
-            Color = "Red";
+            Colour = "Red";
+            Type = "Red Delicious";
         }
         public override void FruitColor()
         {
